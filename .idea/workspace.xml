@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77776c38-6fff-4ebc-a967-e62b4965dbb3" name="Changes" comment="Done:&#10;1. Added full project structure and logic&#10;2. Inspected GitHub Api docs&#10;3. Tested basic api&#10;&#10;Bugs:&#10;1. List of branches value is not corrected&#10;&#10;ToDo:&#10;1. Fix bug&#10;2. Add Tests&#10;3. Add JavaDocs&#10;4. Add all docs and PostMan docs">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/controllers/GitHubController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/controllers/GitHubController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/GitHubApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/GitHubApiException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/RateLimitExceededException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/RateLimitExceededException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/UserNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/services/GitHubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/services/GitHubService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/skadiz/GitHubRestApp/GitRestAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/skadiz/GitHubRestApp/GitHubServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GitRestApp-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GitRestApp-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/controllers/GitHubController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/controllers/GitHubController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/GitHubApiException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/GitHubApiException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/RateLimitExceededException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/RateLimitExceededException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/UserNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/UserNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/services/GitHubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/services/GitHubService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-07-30T23-05-14_166.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.skadiz.GitHubRestApp.GitRestAppApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.skadiz.GitHubRestApp.GitRestAppApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/skadiz/GitHubRestApp/GitRestAppApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +61,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -60,11 +74,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.GitHubControllerTest.executor": "Run",
+    "JUnit.GitHubControllerTest.testGetRepositories_Success.executor": "Run",
+    "JUnit.GitHubServiceTest.executor": "Run",
+    "JUnit.GlobalExceptionHandlerTest.executor": "Run",
+    "JUnit.RestTemplateConfigTest.executor": "Run",
     "Maven.GitHubRestApp [clean].executor": "Run",
     "Maven.GitHubRestApp [compile].executor": "Run",
     "Maven.GitHubRestApp [validate].executor": "Run",
     "Maven.GitRestApp [clean].executor": "Run",
     "Maven.GitRestApp [package].executor": "Run",
+    "Maven.GitRestApp [test].executor": "Run",
+    "Maven.GitRestApp [verify].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -108,7 +129,83 @@
       <recent name="com.skadiz.GitHubRestApp.exceptions" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GitHubControllerTest">
+    <configuration name="GitHubControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitRestApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skadiz.GitHubRestApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skadiz.GitHubRestApp" />
+      <option name="MAIN_CLASS_NAME" value="com.skadiz.GitHubRestApp.GitHubControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GitHubControllerTest.testGetRepositories_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitRestApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skadiz.GitHubRestApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skadiz.GitHubRestApp" />
+      <option name="MAIN_CLASS_NAME" value="com.skadiz.GitHubRestApp.GitHubControllerTest" />
+      <option name="METHOD_NAME" value="testGetRepositories_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GitHubServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitRestApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skadiz.GitHubRestApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skadiz.GitHubRestApp" />
+      <option name="MAIN_CLASS_NAME" value="com.skadiz.GitHubRestApp.GitHubServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlobalExceptionHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitRestApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skadiz.GitHubRestApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skadiz.GitHubRestApp" />
+      <option name="MAIN_CLASS_NAME" value="com.skadiz.GitHubRestApp.GlobalExceptionHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTemplateConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitRestApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skadiz.GitHubRestApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skadiz.GitHubRestApp" />
+      <option name="MAIN_CLASS_NAME" value="com.skadiz.GitHubRestApp.RestTemplateConfigTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GitRestAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="GitRestApp" />
@@ -117,6 +214,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GitHubControllerTest" />
+        <item itemvalue="JUnit.GitHubControllerTest.testGetRepositories_Success" />
+        <item itemvalue="JUnit.GitHubServiceTest" />
+        <item itemvalue="JUnit.GlobalExceptionHandlerTest" />
+        <item itemvalue="JUnit.RestTemplateConfigTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -141,7 +247,7 @@
       <workItem from="1722071666215" duration="9000" />
       <workItem from="1722071848378" duration="8000" />
       <workItem from="1722071911200" duration="142000" />
-      <workItem from="1722372844013" duration="4682000" />
+      <workItem from="1722372844013" duration="8720000" />
     </task>
     <task id="LOCAL-00001" summary="Done:&#10;1. Added full project structure and logic&#10;2. Inspected GitHub Api docs&#10;3. Tested basic api&#10;&#10;Bugs:&#10;1. List of branches value is not corrected&#10;&#10;ToDo:&#10;1. Fix bug&#10;2. Add Tests&#10;3. Add JavaDocs&#10;4. Add all docs and PostMan docs">
       <option name="closed" value="true" />
