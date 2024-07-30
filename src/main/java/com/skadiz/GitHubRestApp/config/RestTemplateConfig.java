@@ -15,8 +15,7 @@ import java.util.Collections;
 @Configuration
 public class RestTemplateConfig {
 
-    //  @Value("${github.api.token}")
-    @Value("token")
+    @Value("${github.api.token}")
     private String githubApiToken;
 
 

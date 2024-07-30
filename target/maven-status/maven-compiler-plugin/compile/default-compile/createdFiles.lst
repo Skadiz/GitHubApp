@@ -1,0 +1,12 @@
+com\skadiz\GitHubRestApp\config\RestTemplateConfig.class
+com\skadiz\GitHubRestApp\dto\CommitDto.class
+com\skadiz\GitHubRestApp\exceptions\RateLimitExceededException.class
+com\skadiz\GitHubRestApp\util\GlobalExceptionHandler.class
+com\skadiz\GitHubRestApp\dto\OwnerDto.class
+com\skadiz\GitHubRestApp\exceptions\GitHubApiException.class
+com\skadiz\GitHubRestApp\dto\BranchDto.class
+com\skadiz\GitHubRestApp\controllers\GitHubController.class
+com\skadiz\GitHubRestApp\dto\RepositoryDto.class
+com\skadiz\GitHubRestApp\exceptions\UserNotFoundException.class
+com\skadiz\GitHubRestApp\services\GitHubService.class
+com\skadiz\GitHubRestApp\GitRestAppApplication.class

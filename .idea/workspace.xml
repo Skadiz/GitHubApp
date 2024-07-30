@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="77776c38-6fff-4ebc-a967-e62b4965dbb3" name="Changes" comment="Done:&#10;1. Added full project structure and logic&#10;2. Inspected GitHub Api docs&#10;3. Tested basic api&#10;&#10;Bugs:&#10;1. List of branches value is not corrected&#10;&#10;ToDo:&#10;1. Fix bug&#10;2. Add Tests&#10;3. Add JavaDocs&#10;4. Add all docs and PostMan docs">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/config/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/services/GitHubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/services/GitHubService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/GitHubRestAppApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/config/RestTemplateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/config/RestTemplateConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/services/GitHubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/services/GitHubService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/skadiz/GitHubRestApp/GitHubRestAppApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,28 +62,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.GitHubRestApp [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.GitHubRestApp [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.GitHubRestApp [validate].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.GitHubRestAppApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/GitHubRestApp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.GitHubRestApp [clean].executor": "Run",
+    "Maven.GitHubRestApp [compile].executor": "Run",
+    "Maven.GitHubRestApp [validate].executor": "Run",
+    "Maven.GitRestApp [clean].executor": "Run",
+    "Maven.GitRestApp [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.GitHubRestAppApplication.executor": "Run",
+    "Spring Boot.GitRestAppApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/git/GitHubApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\kuroc\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="99e90393-449e-4b1a-887e-7d7057438dc3" />
+        <option name="reportName" value="application.properties/qodana/2024-07-30" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\kuroc\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="99e90393-449e-4b1a-887e-7d7057438dc3" reportId="application.properties/qodana/2024-07-30" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.skadiz.GitHubRestApp.dto" />
@@ -116,7 +144,8 @@
       <workItem from="1722070633734" duration="962000" />
       <workItem from="1722071666215" duration="9000" />
       <workItem from="1722071848378" duration="8000" />
-      <workItem from="1722071911200" duration="5000" />
+      <workItem from="1722071911200" duration="142000" />
+      <workItem from="1722372844013" duration="4344000" />
     </task>
     <task id="LOCAL-00001" summary="Done:&#10;1. Added full project structure and logic&#10;2. Inspected GitHub Api docs&#10;3. Tested basic api&#10;&#10;Bugs:&#10;1. List of branches value is not corrected&#10;&#10;ToDo:&#10;1. Fix bug&#10;2. Add Tests&#10;3. Add JavaDocs&#10;4. Add all docs and PostMan docs">
       <option name="closed" value="true" />
@@ -143,7 +172,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
