@@ -12,16 +12,31 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Rest Controller for handling GitHub repository requests.
+ */
 @RestController
 @RequestMapping("/api")
 public class GitHubController {
     private final GitHubService gitHubService;
 
+    /**
+     * Constructs a new GitHubController with the given GitHubService.
+     *
+     * @param gitHubService the service to interact with GitHub API
+     */
     @Autowired
     public GitHubController(GitHubService gitHubService) {
         this.gitHubService = gitHubService;
     }
 
+    /**
+     * Retrieves the non-fork repositories of a given GitHub user along with their branches and last commit SHAs.
+     *
+     * @param username the GitHub username
+     * @param acceptHeader the Accept header, should be "application/json"
+     * @return a ResponseEntity containing the list of repositories with branches or an error message
+     */
     @GetMapping("/repositories/{username}")
     public ResponseEntity<?> getRepositories(@PathVariable String username, @RequestHeader("Accept") String acceptHeader) {
         if (!"application/json".equals(acceptHeader)) {

@@ -18,19 +18,32 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 /**
- * Service for interacting with the GitHub API.
- * This class contains methods to retrieve repositories and branches of a user using the GitHub API.
+ * Service class for interacting with the GitHub API.
  */
 @Service
 public class GitHubService {
     private final RestTemplate restTemplate;
     private final String githubApiUrl;
 
+    /**
+     * Constructs a new GitHubService with the specified RestTemplate and GitHub API URL.
+     *
+     * @param restTemplate the RestTemplate to use for API requests
+     * @param githubApiUrl the base URL for the GitHub API
+     */
     public GitHubService(RestTemplate restTemplate, @Value("${github.api.url}") String githubApiUrl) {
         this.restTemplate = restTemplate;
         this.githubApiUrl = githubApiUrl;
     }
 
+    /**
+     * Retrieves the non-fork repositories of a given GitHub user.
+     *
+     * @param username the GitHub username
+     * @return a list of RepositoryDto objects representing the user's non-fork repositories
+     * @throws UserNotFoundException if the user is not found
+     * @throws GitHubApiException if there is an error with the GitHub API or network issues
+     */
     public List<RepositoryDto> getUserRepositories(String username) {
         try {
             String url = githubApiUrl + "/users/" + username + "/repos";
@@ -48,9 +61,16 @@ public class GitHubService {
         } catch (ResourceAccessException e) {
             throw new GitHubApiException("Network error: " + e.getMessage());
         }
-
     }
 
+    /**
+     * Retrieves the branches of a given repository for a specified GitHub user.
+     *
+     * @param username the GitHub username
+     * @param repositoryName the name of the repository
+     * @return a list of BranchDto objects representing the branches of the repository
+     * @throws GitHubApiException if there is an error with the GitHub API or network issues
+     */
     public List<BranchDto> getRepositoryBranches(String username, String repositoryName) {
         String url = githubApiUrl + "/repos/" + username + "/" + repositoryName + "/branches";
         BranchDto[] branches = restTemplate.getForObject(url, BranchDto[].class);

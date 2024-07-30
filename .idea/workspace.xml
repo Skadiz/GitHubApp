@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77776c38-6fff-4ebc-a967-e62b4965dbb3" name="Changes" comment="Done:&#10;1. Added full project structure and logic&#10;2. Inspected GitHub Api docs&#10;3. Tested basic api&#10;&#10;Bugs:&#10;1. List of branches value is not corrected&#10;&#10;ToDo:&#10;1. Fix bug&#10;2. Add Tests&#10;3. Add JavaDocs&#10;4. Add all docs and PostMan docs">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/config/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/controllers/GitHubController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/controllers/GitHubController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/GitHubApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/GitHubApiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/RateLimitExceededException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/RateLimitExceededException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/exceptions/UserNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/services/GitHubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/services/GitHubService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/GitHubRestAppApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/config/RestTemplateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/config/RestTemplateConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/services/GitHubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/services/GitHubService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/skadiz/GitHubRestApp/GitHubRestAppApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +141,7 @@
       <workItem from="1722071666215" duration="9000" />
       <workItem from="1722071848378" duration="8000" />
       <workItem from="1722071911200" duration="142000" />
-      <workItem from="1722372844013" duration="4344000" />
+      <workItem from="1722372844013" duration="4682000" />
     </task>
     <task id="LOCAL-00001" summary="Done:&#10;1. Added full project structure and logic&#10;2. Inspected GitHub Api docs&#10;3. Tested basic api&#10;&#10;Bugs:&#10;1. List of branches value is not corrected&#10;&#10;ToDo:&#10;1. Fix bug&#10;2. Add Tests&#10;3. Add JavaDocs&#10;4. Add all docs and PostMan docs">
       <option name="closed" value="true" />
