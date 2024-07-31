@@ -15,7 +15,7 @@ The **GitHub REST API Application** is a Spring Boot-based application that prov
 
 ### Prerequisites
 
-- Java 11 or higher
+- Java 21 or higher
 - Maven 3.6 or higher
 - An active GitHub API token
 
