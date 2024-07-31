@@ -1,1 +1,11 @@
+version: '3.8'
+
 services:
+  app:
+    image: your-dockerhub-username/your-app-image:latest  # Replace with your actual Docker image
+    container_name: github_rest_app
+    ports:
+      - "8080:8080"
+    environment:
+      - GITHUB_API_URL=https://api.github.com
+      - GITHUB_API_TOKEN=your_github_token  # Replace with your GitHub API token

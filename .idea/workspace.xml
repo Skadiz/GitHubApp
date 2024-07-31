@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="77776c38-6fff-4ebc-a967-e62b4965dbb3" name="Changes" comment="Done:&#10;1. Added full project structure and logic&#10;2. Inspected GitHub Api docs&#10;3. Tested basic api&#10;&#10;Bugs:&#10;1. List of branches value is not corrected&#10;&#10;ToDo:&#10;1. Fix bug&#10;2. Add Tests&#10;3. Add JavaDocs&#10;4. Add all docs and PostMan docs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,10 @@
     &quot;accountId&quot;: &quot;39068221-cb79-4b62-b126-df841bcbaa01&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -55,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.compose.yaml: Compose Deployment.executor": "Run",
     "JUnit.GitHubControllerTest.executor": "Run",
     "JUnit.GitHubControllerTest.testGetRepositories_Success.executor": "Run",
     "JUnit.GitHubServiceTest.executor": "Run",
@@ -85,18 +91,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\kuroc\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="99e90393-449e-4b1a-887e-7d7057438dc3" />
-        <option name="reportName" value="application.properties/qodana/2024-07-30" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\kuroc\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="99e90393-449e-4b1a-887e-7d7057438dc3" reportId="application.properties/qodana/2024-07-30" />
@@ -110,7 +104,7 @@
       <recent name="com.skadiz.GitHubRestApp.exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GitRestAppApplication">
+  <component name="RunManager" selected="Docker.compose.yaml: Compose Deployment">
     <configuration name="GitHubControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitRestApp" />
       <extension name="coverage">
@@ -172,21 +166,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestTemplateConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GitRestApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.skadiz.GitHubRestApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.skadiz.GitHubRestApp" />
-      <option name="MAIN_CLASS_NAME" value="com.skadiz.GitHubRestApp.RestTemplateConfigTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GitRestAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="GitRestApp" />
@@ -195,13 +174,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.compose.yaml: Compose Deployment" />
         <item itemvalue="JUnit.GitHubControllerTest" />
         <item itemvalue="JUnit.GitHubControllerTest.testGetRepositories_Success" />
         <item itemvalue="JUnit.GitHubServiceTest" />
         <item itemvalue="JUnit.GlobalExceptionHandlerTest" />
-        <item itemvalue="JUnit.RestTemplateConfigTest" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +220,8 @@
       <workItem from="1722071666215" duration="9000" />
       <workItem from="1722071848378" duration="8000" />
       <workItem from="1722071911200" duration="142000" />
-      <workItem from="1722372844013" duration="11702000" />
+      <workItem from="1722372844013" duration="12619000" />
+      <workItem from="1722411189862" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="Done:&#10;1. Added full project structure and logic&#10;2. Inspected GitHub Api docs&#10;3. Tested basic api&#10;&#10;Bugs:&#10;1. List of branches value is not corrected&#10;&#10;ToDo:&#10;1. Fix bug&#10;2. Add Tests&#10;3. Add JavaDocs&#10;4. Add all docs and PostMan docs">
       <option name="closed" value="true" />
