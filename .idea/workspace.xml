@@ -6,25 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="77776c38-6fff-4ebc-a967-e62b4965dbb3" name="Changes" comment="Done:&#10;1. Added full project structure and logic&#10;2. Inspected GitHub Api docs&#10;3. Tested basic api&#10;&#10;Bugs:&#10;1. List of branches value is not corrected&#10;&#10;ToDo:&#10;1. Fix bug&#10;2. Add Tests&#10;3. Add JavaDocs&#10;4. Add all docs and PostMan docs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/skadiz/GitHubRestApp/GitRestAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/skadiz/GitHubRestApp/GitHubServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GitRestApp-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GitRestApp-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/controllers/GitHubController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/controllers/GitHubController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/GitHubApiException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/GitHubApiException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/RateLimitExceededException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/RateLimitExceededException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/UserNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/exceptions/UserNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/services/GitHubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/services/GitHubService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skadiz/GitHubRestApp/util/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-07-30T23-05-14_166.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.skadiz.GitHubRestApp.GitRestAppApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.skadiz.GitHubRestApp.GitRestAppApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/skadiz/GitHubRestApp/GitRestAppApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +110,7 @@
       <recent name="com.skadiz.GitHubRestApp.exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GitHubControllerTest">
+  <component name="RunManager" selected="Spring Boot.GitRestAppApplication">
     <configuration name="GitHubControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitRestApp" />
       <extension name="coverage">
@@ -247,7 +228,7 @@
       <workItem from="1722071666215" duration="9000" />
       <workItem from="1722071848378" duration="8000" />
       <workItem from="1722071911200" duration="142000" />
-      <workItem from="1722372844013" duration="8720000" />
+      <workItem from="1722372844013" duration="11702000" />
     </task>
     <task id="LOCAL-00001" summary="Done:&#10;1. Added full project structure and logic&#10;2. Inspected GitHub Api docs&#10;3. Tested basic api&#10;&#10;Bugs:&#10;1. List of branches value is not corrected&#10;&#10;ToDo:&#10;1. Fix bug&#10;2. Add Tests&#10;3. Add JavaDocs&#10;4. Add all docs and PostMan docs">
       <option name="closed" value="true" />
